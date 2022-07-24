@@ -157,7 +157,7 @@ public void OnPluginStart()
 
 	g_CvarSkyName = FindConVar("sv_skyname");
 
-	RegConsoleCmd("sm_skybox", CmdSB);
+	RegConsoleCmd("sm_sky", CmdSB);
 
 	CVARPRCD = CreateConVar("sm_skybox_shop_preview_cooldown", "10", "Интервал между использованиями превью (0 - отключить)", _, true, 0.0);
 	CVARPRTIME = CreateConVar("sm_skybox_shop_preview_time", "5", "Время использования превью (0 - непрерывно)", _, true, 0.0);
